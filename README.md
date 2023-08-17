@@ -15,6 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [My projects](https://www.your-site.com)
 - Frontend Mentor - [@brygmos](https://brygmos.netlify.app/)
 - Twitter - [@russkikh_d](https://www.twitter.com/yourusername)
