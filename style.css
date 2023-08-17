@@ -1,0 +1,57 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    --border-radiuls-m: 12px;
+    --border-radiuls-l: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-grey);
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.qrCard {
+    background-color: var(--white);
+    border-radius: var(--border-radiuls-l);
+    width: 250px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.qrCard img {
+    width: 100%;
+    border-radius: var(--border-radiuls-m);
+}
+
+.qrCard__textBlock {
+    padding: 0 20px;
+}
+
+.qrCard__header {
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.qrCard__text {
+    color: var(--grayish-blue);
+}
